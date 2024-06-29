@@ -1,0 +1,73 @@
+.carousel-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.main-next {
+  color: white !important;
+  position: absolute;
+  right: 0px;
+  top: 40%;
+  z-index: 99;
+  transform: translate(40% -50%);
+  z-index: 99;
+  font-weight: 500;
+  padding: 2rem;
+  font-size: 5rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.main-next:hover {
+  transform: scale(1.1);
+}
+
+.main-prev:hover {
+  transform: scale(1.1);
+}
+
+.main-prev {
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  color: white !important;
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  transform: translate(40% -50%);
+  z-index: 99;
+  font-weight: 500;
+  padding: 2rem;
+  font-size: 5rem;
+}
+
+.main-carousel {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 20vh;
+  padding-left: 10vh;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+}
+.main-carousel h2 {
+  width: 50rem;
+  font-size: 2rem;
+}
+.main-carousel p {
+  width: 80rem;
+  font-size: 1.6rem;
+}
+
+.carousel-active {
+  opacity: 1;
+  position: absolute;
+}/*# sourceMappingURL=Carousel.css.map */

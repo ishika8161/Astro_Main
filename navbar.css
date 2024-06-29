@@ -1,0 +1,22 @@
+nav {
+  z-index: 99;
+  color: white;
+  width: 100vw;
+  position: absolute;
+  padding: 4rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  align-items: center;
+}
+nav div span:first-child {
+  font-size: 2.2rem;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 3rem;
+}
+nav ul li {
+  cursor: pointer;
+}/*# sourceMappingURL=navbar.css.map */

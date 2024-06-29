@@ -1,0 +1,530 @@
+.quote {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  width: 100%;
+  padding: 15rem 20rem 0rem 20rem;
+}
+.quote p {
+  font-size: calc(2rem + 1vw);
+  font-weight: 300;
+  line-height: 1.2;
+  color: #000;
+  text-align: center;
+}
+
+.main-service-heading {
+  padding-top: 10vh;
+}
+.main-service-heading h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: #C19E1A;
+  padding: 5rem 10rem 0rem 10rem;
+}
+
+.main-service {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 110vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.main-service .main-service-inner {
+  position: absolute;
+  height: 100%;
+  -webkit-animation: circlar 90s infinite linear;
+          animation: circlar 90s infinite linear;
+  z-index: 1;
+}
+@-webkit-keyframes circlar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes circlar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.main-service .main-service-wrapper {
+  width: 100%;
+  padding: 5rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+.main-service .main-service-wrapper .one {
+  width: 45rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 7rem;
+}
+.main-service .main-service-wrapper .one .card {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  height: 23vh;
+  padding: 3rem;
+  gap: 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main-service .main-service-wrapper .one .card .icon {
+  margin-top: 0.5rem;
+  height: 6rem;
+  width: 6rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://mysta.b-cdn.net/wp-content/uploads/2022/01/services@2x.png);
+}
+.main-service .main-service-wrapper .one .card .content {
+  background-color: white;
+  flex: 1;
+}
+.main-service .main-service-wrapper .one .card .content h3 {
+  font-size: 2rem;
+}
+.main-service .main-service-wrapper .one .card .content p {
+  font-size: 1.6rem;
+}
+
+.main-today {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  padding: 10rem 7rem;
+  gap: 5rem;
+  background-image: url(../../img/astro.png);
+  background-size: cover;
+}
+.main-today .one {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.main-today .one .wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  gap: 0.5rem;
+}
+.main-today .one .wrapper div:first-child {
+  background-image: url(https://mysta.b-cdn.net/wp-content/uploads/2022/01/aries-300x300.png);
+}
+.main-today .one .wrapper div:nth-child(2) {
+  background-image: url(https://mysta.b-cdn.net/wp-content/uploads/2022/01/tarius-300x300.png);
+}
+.main-today .one .wrapper div:nth-child(3) {
+  background-image: url(https://mysta.b-cdn.net/wp-content/uploads/2022/01/gemini-300x300.png);
+}
+.main-today .one .wrapper div:nth-child(4) {
+  background-image: url(https://mysta.b-cdn.net/wp-content/uploads/2022/01/cancer-300x300.png);
+}
+.main-today .one .wrapper div:nth-child(5) {
+  background-image: url(https://mysta.b-cdn.net/wp-content/uploads/2022/01/leo-300x300.png);
+}
+.main-today .one .wrapper div:nth-child(6) {
+  background-image: url(https://mysta.b-cdn.net/wp-content/uploads/2022/01/virgo-300x300.png);
+}
+.main-today .one .wrapper div:nth-child(7) {
+  background-image: url(https://mysta.b-cdn.net/wp-content/uploads/2022/01/libre-300x300.png);
+}
+.main-today .one .wrapper div:nth-child(8) {
+  background-image: url(https://mysta.b-cdn.net/wp-content/uploads/2022/01/scorpio-300x300.png);
+}
+.main-today .one .wrapper div:nth-child(9) {
+  background-image: url(https://mysta.b-cdn.net/wp-content/uploads/2022/01/sagittarius-300x300.png);
+}
+.main-today .one .wrapper div:nth-child(10) {
+  background-image: url(https://mysta.b-cdn.net/wp-content/uploads/2022/01/capricorn-300x300.png);
+}
+.main-today .one .wrapper div:nth-child(11) {
+  background-image: url(https://mysta.b-cdn.net/wp-content/uploads/2022/01/aquarius-300x300.png);
+}
+.main-today .one .wrapper div:nth-child(12) {
+  background-image: url(https://mysta.b-cdn.net/wp-content/uploads/2022/01/pisces-300x300.png);
+}
+.main-today .one .wrapper .option {
+  border-radius: 1rem;
+  height: 6rem;
+  width: 6rem;
+  background-color: #e9e2c3;
+  background-size: cover;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.main-today .one .wrapper .option:hover {
+  transform: scale(1.1);
+}
+.main-today .one .content {
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  min-height: 30rem;
+  width: 100%;
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.main-today .one .content p {
+  padding: 1rem 5rem;
+  font-size: 1.7rem;
+}
+.main-today .one .about {
+  margin-top: 8rem;
+  height: 70rem;
+  width: 100%;
+}
+.main-today .one .about .wrapper {
+  display: flex;
+  flex-direction: row;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.main-today .one .about .wrapper img {
+  width: 45%;
+}
+.main-today .one .about .wrapper .text {
+  width: 45%;
+  height: 100%;
+  background-image: none;
+}
+.main-today .one .about .wrapper .text h2 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  font-weight: 400 !important;
+  color: #181828;
+}
+.main-today .one .about .wrapper .text h3 {
+  font-size: 1.9rem;
+  font-weight: 300 !important;
+  color: #C19E1A;
+}
+.main-today .one .about .wrapper .text p {
+  font-size: 1.7rem;
+  line-height: 2;
+}
+.main-today .one .about .about-text {
+  padding: 2rem;
+  line-height: 2;
+  font-size: 1.7rem;
+}
+.main-today .calendar-wrapper-scss {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.main-today .calendar-wrapper-scss .calender {
+  padding: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 2rem;
+  border: 0px solid;
+}
+.main-today .calendar-wrapper-scss .event-list {
+  padding: 1rem;
+  padding-bottom: 3rem;
+  max-height: 70rem;
+  overflow-y: scroll;
+  width: 40rem;
+  border-radius: 2rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.main-today .calendar-wrapper-scss .event-list ul {
+  list-style-type: none;
+}
+.main-today .calendar-wrapper-scss .event-list h1 {
+  font-size: 2rem;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  font-weight: 300;
+}
+.main-today .calendar-wrapper-scss .event-list .list {
+  font-size: 1.7rem;
+  color: rgb(115, 115, 115);
+  text-align: center;
+}
+
+.main-post {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  padding: 10rem 10rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 5rem;
+}
+.main-post h1 {
+  font-size: 4rem;
+  color: #C19E1A;
+}
+.main-post .one {
+  height: 70vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  gap: 2rem;
+}
+.main-post .one .img {
+  height: 100%;
+  width: 40%;
+  background-image: url(../../img/gopalji.jpeg);
+}
+.main-post .one .card {
+  border-radius: 2rem;
+  border: 1px solid black;
+  padding: 2rem;
+  font-size: 1.6rem;
+  width: 60%;
+  overflow-y: scroll;
+}
+.main-post .one .card .text {
+  padding: 1rem;
+}
+.main-post .two {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+.main-post .two .smallpost {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+.main-post .two .smallpost .img {
+  height: 100%;
+  width: 40%;
+  background-image: url(../../img/post.jpg);
+  background-position: center;
+  border-radius: 2rem;
+}
+.main-post .two .smallpost .card {
+  border-radius: 2rem;
+  border: 1px solid black;
+  padding: 2rem;
+  font-size: 1.6rem;
+  width: 60%;
+  overflow-y: scroll;
+}
+.main-post .two .smallpost .card .text {
+  padding: 1rem;
+}
+
+.gallery {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  padding: 5rem 10rem 10rem;
+}
+.gallery h1 {
+  font-size: 4rem;
+  color: #C19E1A;
+  padding-bottom: 2rem;
+}
+.gallery .wrapper {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "a a b b b d d i i" "e e e h h c c i i" "e e e h h g g g g";
+  grid-template-columns: repeat(9, autofit);
+  grid-template-rows: repeat(3, 25rem);
+  grid-auto-flow: row dense;
+  gap: 2rem;
+}
+.gallery .wrapper div {
+  border-radius: 1rem;
+  transition: 0.3s ease-in-out;
+}
+.gallery .wrapper div:hover {
+  transform: scale(1.05);
+}
+.gallery .wrapper div:first-child {
+  grid-area: a;
+  background-color: black;
+}
+.gallery .wrapper div:nth-child(2) {
+  grid-area: b;
+  background-color: rgb(95, 85, 85);
+}
+.gallery .wrapper div:nth-child(3) {
+  grid-area: c;
+  background-color: rgb(149, 24, 24);
+}
+.gallery .wrapper div:nth-child(4) {
+  grid-area: d;
+  background-image: url(../../img/post.jpg);
+  background-color: rgb(95, 85, 85);
+}
+.gallery .wrapper div:nth-child(5) {
+  grid-area: e;
+  background-image: url(../../img/gopalji.jpeg);
+}
+.gallery .wrapper div:nth-child(6) {
+  grid-area: i;
+  background-color: rgb(255, 222, 222);
+}
+.gallery .wrapper div:nth-child(7) {
+  grid-area: h;
+  background-color: rgb(227, 227, 227);
+  background-image: url(../../img/post.jpg);
+  background-position: center;
+}
+.gallery .wrapper div:nth-child(8) {
+  grid-area: g;
+  background-color: rgb(95, 85, 85);
+}
+
+.footer {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10rem;
+  width: 100vw;
+  background-color: #21212C;
+  background-image: url(../../img/dark.png);
+}
+.footer .header {
+  padding: 3rem 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer .header h2 {
+  font-family: "Playfair Display", Sans-serif;
+  font-size: 74px;
+  font-weight: 600;
+  line-height: 1.1em;
+  letter-spacing: 0px;
+  color: white;
+}
+.footer .header h3 {
+  font-size: 1.7rem;
+  color: white;
+}
+.footer .header p {
+  color: white;
+  font-size: 1.5rem;
+}
+.footer .wrapper {
+  padding-top: 8rem;
+  height: 80rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .wrapper .one {
+  height: 80%;
+  width: 40%;
+}
+.footer .wrapper .one .content {
+  height: 30rem;
+  width: 100%;
+  background-color: #FBF9F2;
+  border-radius: 1rem;
+  padding: 5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer .wrapper .one .content h2 {
+  font-size: 2.3rem;
+  padding-bottom: 1rem;
+}
+.footer .wrapper .one .content .card {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  gap: 1rem;
+}
+.footer .wrapper .one .content .card .icon {
+  display: flex;
+  align-items: center;
+}
+.footer .wrapper .two {
+  height: 100%;
+  width: 40%;
+  background-color: #FBF9F2;
+  border-radius: 1rem;
+  padding: 5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer .wrapper .two h2 {
+  font-size: 2.3rem;
+  padding-bottom: 1rem;
+}
+.footer .wrapper .two .wrap {
+  display: flex;
+  flex-direction: column;
+}
+.footer .wrapper .two .wrap label {
+  font-size: 1.5rem;
+  color: #181828;
+}
+.footer .wrapper .two .wrap input {
+  height: 5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #E4E5E7;
+  margin-bottom: 3rem;
+}
+.footer .wrapper .two .wrap textarea {
+  height: 30vh;
+  resize: none;
+  border-radius: 0.5rem;
+  border: 1px solid #E4E5E7;
+}
+.footer .wrapper .two .submit {
+  margin-top: 4rem;
+  height: 5rem;
+  width: 13rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #21212C;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.footer .wrapper .two .submit:hover {
+  transform: scale(1.05);
+}/*# sourceMappingURL=Home.css.map */
